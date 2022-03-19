@@ -33,10 +33,17 @@ a {
     font-weight: lighter;
 }
 
-.header-information-container {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
+.hero {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20% 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -65,13 +72,6 @@ a {
     margin: 0;
 }
 
-.hero {
-    background: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 10px 20% 100px;
-}
-
 .image-hero-main {
     width: 50%;
     height: auto;
@@ -81,24 +81,16 @@ a {
     background-color: rgb(117, 117, 126);
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 .information-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.information-box {
-    height: 150px;
-    width: 150px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
+.header-information-container {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .information-list {
@@ -110,6 +102,13 @@ a {
     font-size: 16px;
     text-align: center;
     margin: 20px;
+}
+
+.information-box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
 .quote-section {
