@@ -136,6 +136,33 @@ a {
     text-align: right;    
 }
 
+.call-to-action-section {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    align-self: center;
+    padding: 20px 70px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-header {
+    margin-bottom: 0;
+}
+
+.call-to-action-text {
+    margin-top: 0;
+    font-size: smaller;
+}
+
+.call-to-action-button {
+    border: 2px solid #F9FAF8;
+    margin-left: 120px;
+}
 /* {
     border: 1px solid red;
 }*/
