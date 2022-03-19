@@ -7,17 +7,6 @@ body {
     align-items: stretch;
 }
 
-button {
-    color: #F9FAF8;
-    background-color: #3882f6;
-    height: 35px;
-    width: 100px;
-    border-radius: 5px;
-    font-weight: bold;
-    border: none;
-    margin-top: 10px;
-}
-
 ul { 
     list-style: none;
     margin: 0;
@@ -31,6 +20,27 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -163,6 +173,8 @@ a {
     border: 2px solid #F9FAF8;
     margin-left: 120px;
 }
+
+
 /* {
     border: 1px solid red;
 }*/
