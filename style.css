@@ -43,6 +43,8 @@ footer {
     align-items: center;
 }
 
+/* Classes hero section */ 
+
 .hero {
     background: #1F2937;
     display: flex;
@@ -91,6 +93,8 @@ footer {
     background-color: rgb(117, 117, 126);
 }
 
+/* Classes information section */
+
 .information-container {
     display: flex;
     flex-direction: column;
@@ -121,6 +125,8 @@ footer {
     border-radius: 10px;
 }
 
+/* Classes quote section */
+
 .quote-section {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -145,6 +151,8 @@ footer {
     margin-top: 0;
     text-align: right;    
 }
+
+/* Classes call to action section */
 
 .call-to-action-section {
     background-color: #3882f6;
@@ -173,8 +181,3 @@ footer {
     border: 2px solid #F9FAF8;
     margin-left: 120px;
 }
-
-
-/* {
-    border: 1px solid red;
-}*/
